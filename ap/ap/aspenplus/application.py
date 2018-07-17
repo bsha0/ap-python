@@ -10,6 +10,7 @@ class Version(Enum):
 
 
 class HAPAttributeNumber(Enum):
+    HAP_VALUE = 0
     HAP_UNITROW = 2
     HAP_UNITCOL = 3
 
@@ -44,7 +45,16 @@ class Application(object):
         return tuple(blocks)
 
     def get_value(self, node, unit=None):
-        return (node.value, node.UnitString)
+        if unit is None:
+            unitcol = node.AttributeValue(HAPAttributeNumber.HAP_UNITCOL.value)
+        else:
+            units = self.get_units(node)
+            if unit in units:
+                unitcol = units.index(unit) + 1
+            else:
+                raise Exception(f"Unit {unit} isn't in the available list {units}.")
+        unitrow = node.AttributeValue(HAPAttributeNumber.HAP_UNITROW.value)
+        return(node.ValueForUnit(unitrow, unitcol), unit if unit is not None else node.UnitString)
 
     def set_value(self, node, value, unit=None):
         if unit is None:
