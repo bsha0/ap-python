@@ -28,18 +28,15 @@ class Application(object):
 
     def close(self):
         '''close application.'''
-        pass
+        self.__hyApp.Quit()
 
     def save(self):
         '''save file.'''
-        pass
+        self.__hyCase.Save()
 
     def saveas(self, path):
         '''save file.'''
-        pass
-
-    def run(self):
-        pass
+        self.__hyCase.SaveAs2(path, True)
 
     def find_node(self, path):
         '''get backdoor variable.'''
@@ -47,11 +44,12 @@ class Application(object):
         return backdoor.BackDoorRealVariable(path).Variable
 
     def print_streams(self):
-        pass
+        '''print stream list.'''
+        raise NotImplementedError
 
     def print_blocks(self):
         '''print block list.'''
-        pass
+        raise NotImplementedError
 
     def get_value(self, node, unit=None):
         '''get backdoor variable value.'''

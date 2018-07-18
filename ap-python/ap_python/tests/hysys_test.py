@@ -6,7 +6,7 @@ def main():
     hy.open_file(os.path.join(os.path.abspath(os.path.dirname(__file__)), 'Atmospheric Crude Tower.hsc'))
     # set visible
     hy.visible = True
-    
+
     # # temperature of stream 'Raw Crude'
     path = r'FlowSht.1/StreamObject.400(Raw Crude):Temperature.502.0'
     node = hy.find_node(path)
@@ -19,8 +19,8 @@ def main():
     hy.set_value(node, 500.0, 'R')
     assert(hy.get_value(node, 'R')[0] == 500.0)
     print(f'value: {hy.get_value(node, "R")}')
-    # ap.saveas(os.path.join(os.path.abspath(os.path.dirname(__file__)), 'pfdtut1.bkp'))
-    # ap.close()
+    hy.saveas(os.path.join(os.path.abspath(os.path.dirname(__file__)), 'Atmospheric Crude Tower1.hsc'))
+    hy.close()
 
 
 if __name__ == '__main__':

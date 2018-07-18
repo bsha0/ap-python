@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name='ap-python',
-    version='1.0.0',
+    version='1.0.1',
     description='python automation for aspen plus family products',
     license="MIT Licence",
     author="bshao",
