@@ -102,19 +102,5 @@ venv.bak/
 
 # mypy
 .mypy_cache/
-/ap/ap/aspenplus/pfdtut.bkp
-/ap/ap/aspenplus/_1554gea.def
-/ap/ap/aspenplus/_1430qpi.def
-/ap/ap/aspenplus/_0859yyw.def
-/.vscode
+/.vs/ap-python/v15
 /.vs
-/ap/.vscode
-/ap/_0033caf.def
-/ap/ap/tests/_4024sbc.def
-/ap/ap/tests/_3645wyp.def
-/ap/ap/tests/_3553qeg.def
-/ap-python/.vscode
-/ap-python/ap_python/tests/pfdtut1.bkp
-/ap-python/ap_python/tests/pfdtut.bkp
-/ap-python/ap_python/tests/Atmospheric Crude Tower.hsc
-/ap-python/ap_python/tests/Atmospheric Crude Tower1.hsc
