@@ -78,10 +78,10 @@ python automation package for aspen plus and aspen hysys.
 # 3. About variable path/moniker
 ## aspen plus
 ### copy variable and paste it in variable explorer
-    ![image](https://github.com/bshaoCN/ap-python/tree/master/ap-python/ap_python/tests/screenshots/aplus.1.png)
-    ![image](https://github.com/bshaoCN/ap-python/tree/master/ap-python/ap_python/tests/screenshots/aplus.2.png)
+    ![image](https://github.com/bshaoCN/ap-python/blob/master/ap-python/ap_python/tests/screenshots/aplus.1.png)
+    ![image](https://github.com/bshaoCN/ap-python/blob/master/ap-python/ap_python/tests/screenshots/aplus.2.png)
 ## aspen hysys
 ### copy variable and paste it in excel as link
-    ![image](https://github.com/bshaoCN/ap-python/tree/master/ap-python/ap_python/tests/screenshots/hysys.1.png)
-    ![image](https://github.com/bshaoCN/ap-python/tree/master/ap-python/ap_python/tests/screenshots/hysys.2.png)
-    ![image](https://github.com/bshaoCN/ap-python/tree/master/ap-python/ap_python/tests/screenshots/hysys.3.png)
+    ![image](https://github.com/bshaoCN/ap-python/blob/master/ap-python/ap_python/tests/screenshots/hysys.1.png)
+    ![image](https://github.com/bshaoCN/ap-python/blob/master/ap-python/ap_python/tests/screenshots/hysys.2.png)
+    ![image](https://github.com/bshaoCN/ap-python/blob/master/ap-python/ap_python/tests/screenshots/hysys.3.png)
